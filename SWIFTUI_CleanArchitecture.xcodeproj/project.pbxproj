@@ -11,6 +11,15 @@
 		B61D47CC2A10D164008A5ECE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61D47CB2A10D164008A5ECE /* ContentView.swift */; };
 		B61D47CE2A10D166008A5ECE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B61D47CD2A10D166008A5ECE /* Assets.xcassets */; };
 		B61D47D12A10D166008A5ECE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B61D47D02A10D166008A5ECE /* Preview Assets.xcassets */; };
+		B61D47DA2A10D1DE008A5ECE /* TFValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61D47D92A10D1DE008A5ECE /* TFValue.swift */; };
+		B61D47DE2A10D24C008A5ECE /* TextInputUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61D47DD2A10D24C008A5ECE /* TextInputUseCase.swift */; };
+		B61D47E22A10D2E7008A5ECE /* TextUpRepositortyProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61D47E12A10D2E7008A5ECE /* TextUpRepositortyProtocol.swift */; };
+		B61D47E42A10D2F7008A5ECE /* TextInputUseCaseProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61D47E32A10D2F7008A5ECE /* TextInputUseCaseProtocol.swift */; };
+		B61D47E72A10D431008A5ECE /* TextUpRepositorty.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61D47E62A10D431008A5ECE /* TextUpRepositorty.swift */; };
+		B61D47EB2A10D574008A5ECE /* TFView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61D47EA2A10D574008A5ECE /* TFView.swift */; };
+		B61D47EE2A10D58B008A5ECE /* TFViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61D47ED2A10D58B008A5ECE /* TFViewModel.swift */; };
+		B61D47F02A10D76C008A5ECE /* TFViewCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61D47EF2A10D76C008A5ECE /* TFViewCoordinator.swift */; };
+		B61D47F22A10D7CA008A5ECE /* CoordinatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61D47F12A10D7CA008A5ECE /* CoordinatorProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +28,15 @@
 		B61D47CB2A10D164008A5ECE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B61D47CD2A10D166008A5ECE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B61D47D02A10D166008A5ECE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B61D47D92A10D1DE008A5ECE /* TFValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TFValue.swift; sourceTree = "<group>"; };
+		B61D47DD2A10D24C008A5ECE /* TextInputUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextInputUseCase.swift; sourceTree = "<group>"; };
+		B61D47E12A10D2E7008A5ECE /* TextUpRepositortyProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextUpRepositortyProtocol.swift; sourceTree = "<group>"; };
+		B61D47E32A10D2F7008A5ECE /* TextInputUseCaseProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextInputUseCaseProtocol.swift; sourceTree = "<group>"; };
+		B61D47E62A10D431008A5ECE /* TextUpRepositorty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextUpRepositorty.swift; sourceTree = "<group>"; };
+		B61D47EA2A10D574008A5ECE /* TFView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TFView.swift; sourceTree = "<group>"; };
+		B61D47ED2A10D58B008A5ECE /* TFViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TFViewModel.swift; sourceTree = "<group>"; };
+		B61D47EF2A10D76C008A5ECE /* TFViewCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TFViewCoordinator.swift; sourceTree = "<group>"; };
+		B61D47F12A10D7CA008A5ECE /* CoordinatorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +69,12 @@
 		B61D47C82A10D164008A5ECE /* SWIFTUI_CleanArchitecture */ = {
 			isa = PBXGroup;
 			children = (
-				B61D47C92A10D164008A5ECE /* SWIFTUI_CleanArchitectureApp.swift */,
-				B61D47CB2A10D164008A5ECE /* ContentView.swift */,
-				B61D47CD2A10D166008A5ECE /* Assets.xcassets */,
+				B61D47EC2A10D57A008A5ECE /* Presentation */,
+				B61D47E82A10D436008A5ECE /* Data */,
+				B61D47DB2A10D1FC008A5ECE /* Domain */,
 				B61D47CF2A10D166008A5ECE /* Preview Content */,
+				B61D47D82A10D181008A5ECE /* Resource */,
+				B61D47D72A10D170008A5ECE /* Application */,
 			);
 			path = SWIFTUI_CleanArchitecture;
 			sourceTree = "<group>";
@@ -65,6 +85,101 @@
 				B61D47D02A10D166008A5ECE /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B61D47D72A10D170008A5ECE /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				B61D47C92A10D164008A5ECE /* SWIFTUI_CleanArchitectureApp.swift */,
+				B61D47CB2A10D164008A5ECE /* ContentView.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		B61D47D82A10D181008A5ECE /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				B61D47CD2A10D166008A5ECE /* Assets.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		B61D47DB2A10D1FC008A5ECE /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				B61D47E02A10D261008A5ECE /* RepositoryProtocol */,
+				B61D47DF2A10D255008A5ECE /* UseCase */,
+				B61D47DC2A10D206008A5ECE /* Entitly */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		B61D47DC2A10D206008A5ECE /* Entitly */ = {
+			isa = PBXGroup;
+			children = (
+				B61D47D92A10D1DE008A5ECE /* TFValue.swift */,
+			);
+			path = Entitly;
+			sourceTree = "<group>";
+		};
+		B61D47DF2A10D255008A5ECE /* UseCase */ = {
+			isa = PBXGroup;
+			children = (
+				B61D47DD2A10D24C008A5ECE /* TextInputUseCase.swift */,
+				B61D47E52A10D2FA008A5ECE /* Protocol */,
+			);
+			path = UseCase;
+			sourceTree = "<group>";
+		};
+		B61D47E02A10D261008A5ECE /* RepositoryProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				B61D47E12A10D2E7008A5ECE /* TextUpRepositortyProtocol.swift */,
+			);
+			path = RepositoryProtocol;
+			sourceTree = "<group>";
+		};
+		B61D47E52A10D2FA008A5ECE /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				B61D47E32A10D2F7008A5ECE /* TextInputUseCaseProtocol.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		B61D47E82A10D436008A5ECE /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				B61D47E92A10D448008A5ECE /* Repositroty */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		B61D47E92A10D448008A5ECE /* Repositroty */ = {
+			isa = PBXGroup;
+			children = (
+				B61D47E62A10D431008A5ECE /* TextUpRepositorty.swift */,
+			);
+			path = Repositroty;
+			sourceTree = "<group>";
+		};
+		B61D47EC2A10D57A008A5ECE /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				B61D47F32A10D7FB008A5ECE /* Protocol */,
+				B61D47EA2A10D574008A5ECE /* TFView.swift */,
+				B61D47EF2A10D76C008A5ECE /* TFViewCoordinator.swift */,
+				B61D47ED2A10D58B008A5ECE /* TFViewModel.swift */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		B61D47F32A10D7FB008A5ECE /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				B61D47F12A10D7CA008A5ECE /* CoordinatorProtocol.swift */,
+			);
+			path = Protocol;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +253,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				B61D47CC2A10D164008A5ECE /* ContentView.swift in Sources */,
+				B61D47DA2A10D1DE008A5ECE /* TFValue.swift in Sources */,
+				B61D47E22A10D2E7008A5ECE /* TextUpRepositortyProtocol.swift in Sources */,
+				B61D47E42A10D2F7008A5ECE /* TextInputUseCaseProtocol.swift in Sources */,
+				B61D47EB2A10D574008A5ECE /* TFView.swift in Sources */,
 				B61D47CA2A10D164008A5ECE /* SWIFTUI_CleanArchitectureApp.swift in Sources */,
+				B61D47F22A10D7CA008A5ECE /* CoordinatorProtocol.swift in Sources */,
+				B61D47DE2A10D24C008A5ECE /* TextInputUseCase.swift in Sources */,
+				B61D47F02A10D76C008A5ECE /* TFViewCoordinator.swift in Sources */,
+				B61D47E72A10D431008A5ECE /* TextUpRepositorty.swift in Sources */,
+				B61D47EE2A10D58B008A5ECE /* TFViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
